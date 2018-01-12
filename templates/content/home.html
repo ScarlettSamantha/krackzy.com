@@ -5,7 +5,7 @@
             <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
             <!-- Uncomment below if you prefer to use a text logo -->
             <!--<h1><a href="#hero">Regna</a></h1>-->
-        </div>
+        </div>  
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -15,26 +15,17 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
-        </nav><!-- #nav-menu-container -->
+        </nav>
     </div>
-</header><!-- #header -->
-
-<!--==========================
-  Hero Section
-============================-->
+</header>
 <section id="hero">
     <div class="hero-container">
         <h1>Krackzy92 - Twitch gaming live streamer</h1>
         <h2>We are team of talanted designers making websites with Bootstrap</h2>
         <a href="https://www.twitch.tv/krackzy92" target="__blank" class="btn-get-started">To Twitch</a>
     </div>
-</section><!-- #hero -->
-
+</section>
 <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
     <section id="about">
         <div class="container">
             <div class="row about-container">
@@ -69,11 +60,7 @@
             </div>
 
         </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Facts Section
-    ============================-->
+    </section>
     <section id="facts">
         <div class="container wow fadeIn">
             <div class="section-header">
@@ -105,11 +92,7 @@
             </div>
 
         </div>
-    </section><!-- #facts -->
-
-    <!--==========================
-      Services Section
-    ============================-->
+    </section>
     <section id="services">
         <div class="container wow fadeIn">
             <div class="section-header">
@@ -163,12 +146,7 @@
             </div>
 
         </div>
-    </section><!-- #services -->
-
-    <!--==========================
-    Call To Action Section
-    ============================-->
-    <section id="call-to-action">
+    </section>
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
@@ -181,24 +159,35 @@
             </div>
 
         </div>
-    </section><!-- #call-to-action -->
-    <!--==========================
-      Team Section
-    ============================-->
+    </section>
     <section id="team">
         <div class="container wow fadeInUp">
             <div class="section-header">
-                <h3 class="section-title">Team</h3>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <h3 class="section-title">The People</h3>
+                <p class="section-description">Krackzy and the other people who keep stuff actually going.</p>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
-                        <div class="pic"><img src="{{ url_for('static', filename='images/team-1.jpg') }}"></div>
-                        <h4>Walter White</h4>
-                        <span>Chief Executive Officer</span>
+                        <div class="pic"><img src="{{ url_for('static', filename='images/krackzy_profile.jpg') }}"></div>
+                        <h4>Rais Mohamed</h4>
+                        <span>Streamer</span>
                         <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.twitch.tv/krackzy92"><i class="fa fa-twitch"></i></a>
+                            <a href="https://www.facebook.com/Krackzy92/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/krackzy92"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCmDU1TlZgDaWkC2BW_JH7PA"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="{{ url_for('static', filename='images/taric_profile.gif') }}"></div>
+                        <h4>Justin Persson</h4>
+                        <span>Video-Editor</span>
+                        <div class="social">
+                            <a href="https://www.youtube.com/channel/UCG51F79BoJpTBGlVjLKO9Bg"><i class="fa fa-youtube"></i></a>
                             <a href=""><i class="fa fa-facebook"></i></a>
                             <a href=""><i class="fa fa-google-plus"></i></a>
                             <a href=""><i class="fa fa-linkedin"></i></a>
@@ -208,28 +197,14 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
-                        <div class="pic"><img src="{{ url_for('static', filename='images/team-2.jpg') }}"></div>
-                        <h4>Sarah Jhinson</h4>
-                        <span>Product Manager</span>
+                        <div class="pic"><img src="{{ url_for('static', filename='images/scarlett_profile.png') }}"></div>
+                        <h4>Scarlett Samanatha Verheul</h4>
+                        <span>Software Engineer</span>
                         <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="{{ url_for('static', filename='images/team-3.jpg') }}"></div>
-                        <h4>William Anderson</h4>
-                        <span>CTO</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.twitch.tv/krackzy92"><i class="fa fa-twitch"></i></a>
+                            <a href="https://github.com/scarlettsamantha"><i class="fa fa-github"></i></a>
+                            <a href="https://twitter.com/CtrlAltScarlett"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/scarlettverheul/"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -237,13 +212,12 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
                         <div class="pic"><img src="{{ url_for('static', filename='images/team-4.jpg') }}"></div>
-                        <h4>Amanda Jepson</h4>
-                        <span>Accountant</span>
+                        <h4>Emma "Thenardier" Nygaard</h4>
+                        <span>Manager</span>
                         <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/emmabaek"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/emmanygaard/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/emma.nygaard.7923"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
