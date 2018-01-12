@@ -138,8 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   display: table;
   width: 100%;
-  height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  height: 60vh;
   background-size: cover;
 }
 
@@ -666,8 +665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
+  padding: 25px 40px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
