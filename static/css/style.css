@@ -8,7 +8,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #6441A4 ;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.6);
+  background: #6441A4 ;
   display: table-cell;
   margin: 0;
   padding: 0 10px;
