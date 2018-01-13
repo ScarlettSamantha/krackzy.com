@@ -118,3 +118,6 @@ venv.bak/
 .ropeproject
 /site
 .mypy_cache/
+__cache__.json
+config.py
+*.pyc
