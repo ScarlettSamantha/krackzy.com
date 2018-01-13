@@ -4,7 +4,6 @@ import config
 import time
 import json
 from datetime import datetime
-from dateutil import parser
 
 from flask import Flask, render_template
 
@@ -14,7 +13,6 @@ application = Flask(__name__)
 @application.route('/')
 def hello_world():
     t_data = get_stats()
-    print(t_data)
     last_streamed = ago(datetime.strptime(t_data['created_at'], '%Y-%m-%dT%H:%M:%SZ'))
     return render_template('home.html', twitch_data=t_data, last_streamed=last_streamed)
 
