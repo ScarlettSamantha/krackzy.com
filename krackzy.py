@@ -8,10 +8,10 @@ from dateutil import parser
 
 from flask import Flask, render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/')
+@application.route('/')
 def hello_world():
     t_data = get_stats()
     print(t_data)
@@ -71,4 +71,4 @@ def ago(t):
 
 
 if __name__ == '__main__':
-    app.run(port=5001)
+    application.run(port=5001)
